@@ -4,7 +4,7 @@ import Peer from 'simple-peer';
 import Video from './components/Video';
 import './App.css';
 
-const socket = io('http://localhost:8000');
+const socket = io('https://vc-server-f1p3.onrender.com');
 function App() {
   const [room, setRoom] = useState('');
   const [users, setUsers] = useState([]);
